@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<?php
+require 'Suit.php';
+require 'Card.php';
+require 'Deck.php';
+require 'Player.php';
+require 'Blackjack.php';
+?>
+
 <header class="has-text-centered">
     <h1><b>The BlackJack Game</b></h1>
 </header>

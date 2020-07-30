@@ -11,3 +11,4 @@ foreach($deck->getCards() AS $card) {
     echo $card->getUnicodeCharacter(true);
     echo '<br>';
 }
+
